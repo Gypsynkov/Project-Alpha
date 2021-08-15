@@ -178,10 +178,32 @@ header {
     display: flex;
     text-align: center;
     justify-content: space-around;
+    color: white;
+}
+
+.funs_descr h4 {
+    font-size: xx-large;
+    padding-bottom: 0;
 }
 
 .funs_descr li {
-    padding: 10px;
+    padding-left: 150px;
+}
+
+.person_img {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    position: relative;
+}
+
+.person_img::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #c90000;
 }
 
 .grid {
